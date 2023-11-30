@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JavaScript Creation</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+    <body>
+        <script>
+            var current= new Date()
+            var day_night=current.getHours()
+            if (day_night<=12)
+            document.write("<img class='timepic' src='images/sun.jpg'>")
+            else
+            document.write("<img class='timepic' src='images/moon.png'>")
+        </script>
+    </body>
+</html>
